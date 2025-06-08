@@ -1,0 +1,29 @@
+/* Card Image Height */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 0.375rem; /* matching Bootstrap default card radius */
+  border-top-right-radius: 0.375rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #0d6efd; /* Bootstrap primary blue */
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+/* Footer links */
+footer a {
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: #ffc107; /* Bootstrap warning yellow */
+  text-decoration: underline;
+}
